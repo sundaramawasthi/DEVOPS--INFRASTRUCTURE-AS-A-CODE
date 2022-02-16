@@ -1,22 +1,24 @@
         CONTAINER
 
 A container is a piece of software that package code and all of its software .
-containerization is define form of operating system virtulization through which application run isolated user spaces called Container .
+Containerization is define form of operating system virtulization through which application run isolated user spaces called Container .
 
 BENEFIT OF CONTAINER
 
-Portability -> A container seperate application from thier host operating system making then portable.
+Container Provides -
 
-Scability - > A Container application with a service application designe can handle growing workload
-resulting increase application scability.
+1. Portability -> A container seperate application from thier host operating system making then portable.
 
-Faster Deployment -> A contaier can create a master version of an image that can be distribuated
-on demand , increase app productivity.
+2. Scability - > A Container application with a service application designe can handle growing workload
+   resulting increase application scability.
 
-High productivity -> Container allow developer to track and make changes to the platform's
-source code .
+3. Faster Deployment -> A contaier can create a master version of an image that can be distribuated
+   on demand , increase app productivity.
 
-Enhanced security -> Containerization enhanced Security by adhering to an app seperation mechanism .
+4. High productivity -> Container allow developer to track and make changes to the platform's
+   source code .
 
-Continuity - > Containerization ensures continuity because container operate independently,
-if one container fail due to some reason it's does not affect other.
+5. Enhanced security -> Containerization enhanced Security by adhering to an app seperation mechanism .
+
+6. Continuity - > Containerization ensures continuity because container operate independently,
+   if one container fail due to some reason it's does not affect other.
