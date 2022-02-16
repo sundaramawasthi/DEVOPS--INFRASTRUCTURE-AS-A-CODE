@@ -1,0 +1,7 @@
+What is a docker ?
+
+Docker is popular Contanerization tools 
+Docker is  Contanerization platform from packageing your application along with all 
+    of this dependencies .
+
+The whole idea of docker is to easily developed the application ship container that can be deply evrywhere.
