@@ -17,3 +17,6 @@ High productivity -> Container allow developer to track and make changes to the 
 source code .
 
 Enhanced security -> Containerization enhanced Security by adhering to an app seperation mechanism .
+
+Continuity - > Containerization ensures continuity because container operate independently,
+if one container fail due to some reason it's does not affect other.
