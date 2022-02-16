@@ -1,0 +1,35 @@
+
+VIRTULIZATION 
+
+Virtulization allow you to run different systems on the same physical servers hardware . 
+
+TWO MOST COMMAN MACHENISM FOR HOSTING OPERATING SYSTEM ARE 
+ 
+   VIRTULIZATION 
+
+Concept of virtual machine is use as fundamental unit of virtulization 
+Virtulization allow you to run several operating system on a single physical server hardware
+Virtulization replicate real hardware 
+Virtulization is heavy weight operation that consume lot of resource
+Virtulization provide complete isolation from the host OS .
+Virtual machine has its own Operating System 
+Startup time in a minute
+virtulization is not portable.
+
+
+
+
+   CONTAINERIZATION 
+
+Containerization use the container .
+
+where Containerization allow you to deploy new application on same server with same operating system. 
+In container its replicate at os-level 
+Containerization is lightweight operation it now container lot of resource.
+Less isolation from host OS
+container share the same os that is host os . 
+Startup time in a secound . 
+Containerization is portable
+
+
+
