@@ -70,3 +70,14 @@ Network -> A way for all isolated container to commnucate with one another.
 DOCKER ENGINE ->
 Docker engine is a core part of whole docker engine , It is an application with a client-serever archiitucture that are installed on host machine .
 ITS has three component server, API , CLI
+
+
+
+
+
+
+DOCKER IMAGES - 
+An images is read only template for building a docker template that is based on another image that is been 
+modified someway you can either make your images  used these images that are developed by other and made available
+through registry .
+
