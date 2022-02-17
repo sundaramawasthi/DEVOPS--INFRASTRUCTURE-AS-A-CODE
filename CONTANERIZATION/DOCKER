@@ -1,7 +1,39 @@
 What is a docker ?
 
-Docker is popular Contanerization tools 
-Docker is  Contanerization platform from packageing your application along with all 
-    of this dependencies .
+Docker is popular Contanerization tools
+Docker is Contanerization platform from packageing your application along with all
+of this dependencies .
 
-The whole idea of docker is to easily developed the application ship container that can be deply evrywhere.
+The whole idea of docker is to easily developed the application ship container that can be deploy evrywhere.
+It is free and open platform creating , delivery and operating application
+
+DOCKER PLATFORM -
+
+Docker platform is one of the feature provide by docker to manage the lifecycle of container .
+Docker Provide the ability to package and run an applicaion loosly isolated enviroment called a
+container .
+TO manage the lifeCycle of container its provide Docker platform .
+
+USE OF DOCKER PLATFORM -
+
+Deplepment, deployment , Testing
+
+NOTE- Wheather your production enviroment is Data Center , Cloud provider , hybried of tools its work same for all .
+
+ADVANTAGE OF DOCKER -
+
+BUILT, TEST, DEPLOY AND MAINTAIN
+
+FEATURE -
+
+SCALABLE
+PROVIDE EASY AND FASTER CONFIGURATION
+IS ABLE TO REDUCE THE SIZE
+INCREASE PRODUCTIVITY
+APPLICATION ISOLATION
+SWARM
+ROUTER MESH
+SERVICES
+SECURITY MANAGEMENT
+
+      DOCKER COMPONENT -
