@@ -37,3 +37,29 @@ SERVICES
 SECURITY MANAGEMENT
 
       DOCKER COMPONENT -
+
+DOCKER ARCHITUCTURE -
+
+DOCKER BUILT ON CLIENT -SERVER ARCHITUCTURE
+THE DOCKER CLIENT COMMNUCATE WITH DOCKER DAEMON WHICH HANDLE CONSTRUCTION , DISTRIBUATION AND EXECUATION OF DCKER CONTAINER .
+YOU CAN USE DOCKER CLIENT AND DOCKER DOEMAN ON SAME MACHINE OR USE CAN USE IT SEPERATLY.
+DOCKER CLIENT AND DOEMAN USE A REST API ,UNIX SOCKET OR NETWORK INTERFACE TO COMMNUCATE .
+
+KEY COMPONENT OF DOCKER ARCHITECTURE -
+
+FIRST DOCKER COMPONENT IS -> DOCKER HOST{IT OFFER Complete enviroment of execuete and running application that include docker deoman that is also a core component }
+docker daemon handle docker object such as images, volume , container , network by listeing docker
+API request .
+TO manage request docker daeman commnucate with other daeman
+
+SECOUND MAJOR COMPONENT IS DOCKER CLIENT ->
+DOCKER User can use client intract with docker when client execuate a docker command its transmit to docker daeman which execuate it
+
+THIRED COMPONENT IS DOCKER REGISTRY - >
+docker images are store in docker registry , docker hub is a public repository that anybody can use.
+
+DOCKER OBJECT -
+you can create a images container , network , volume , plugins and another thing when you use docker
+
+DIFFERENT TYPES OF DOCKER OBJECT -
+IMAGES-
