@@ -111,3 +111,17 @@ when compare to other virtual technology them docker images are lightweight , ti
       docker image save -> save one or more image
 
 DOCKER CONYAINER ->
+
+A container are runnable instance of images
+a container are isolated from other container and its host machine .
+When you create or start a container you define it by its images any configuration option you give
+any chages to state of container that is not save in persisitance storage lost when container are remove .
+
+Docker container is tools that is used to create test and deploy to an application.
+
+you can create , start, stop, move a container , deletea container by the help of docker API and CLI
+
+Also you can
+attach storage to container
+connected to one or more network
+construct a new images
