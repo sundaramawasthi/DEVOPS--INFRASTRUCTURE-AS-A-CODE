@@ -159,3 +159,51 @@ appear to physical network interface link directly to physical network.
 NONE -
 It is use to completely disable the network stack on the container.
 You can use network none flag when start a container .
+
+DOCKER REGISTRY AND DOCKER HUB -
+
+DOCER REGISTRY -
+It is storage and distribuated system for name docker images .
+
+docker registry is organised in docker registry where repositiory hold all version of docke images
+
+Registry alllow to docker user pull images locally and push new images to registry.
+
+User should use Registry if they want to -
+
+Ensure their images are saved in a secure place .
+have complete control of image distribuateion
+Integrate image storage and distribuation.
+
+    DOCKER HUB -
+
+    Dockerhub is largest  container library and commnuity
+    A user can browse over 100000 image
+    softare manufacture
+    opensource project
+    Commnuity
+
+    Docker hub is docker host repository that allow us to share the images with the team
+
+         FEATURE  OF DOCKER HUB -
+         PRIVATE REPO
+         AUTOMATED BUILT
+         TEAM AND ORGANIATION
+         OFFICIAL IMAGES
+         PUBLISHED IMAGES
+         WEB HOOKS
+
+
+         DOCKER HUB ALLOW YOU TO -
+         EXPLORE WORLD LARGEST CONTAINER REPOSITIORY
+         EASY SEARCH OVER 1 MILION IMAGE
+         SHARE AND STORE IMAGES ON PUBLIC AND PRIVATE REPO
+         ACCESS FREE REPO
+         BECAME A VERIFY PUBLISER
+         RUN MORE TECH IN CONTAINER WITH CIRTIFIED INFRASTRUCTURE.
+
+
+
+
+         DOCKER COMPOSED -
+
