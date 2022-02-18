@@ -207,3 +207,20 @@ Integrate image storage and distribuation.
 
          DOCKER COMPOSED -
 
+docker composed is a tools that allow user to define and run multi-container docker application.
+
+Composed use a YAML file to figure your application services then by single command you can start your services .
+
+Composed is campitable for all enviroment -
+
+PRODUCTION
+STAGING
+DEVELOPEMENT
+TESTING
+CONTINEOUS INTEGRATION
+
+PROCESS -
+
+create a docker file to difine your app enviroment so it can be replicated every where
+docker composed define YAML to figure out services
+RUN docker composed
