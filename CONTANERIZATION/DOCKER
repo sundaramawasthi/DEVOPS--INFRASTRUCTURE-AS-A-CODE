@@ -71,13 +71,32 @@ DOCKER ENGINE ->
 Docker engine is a core part of whole docker engine , It is an application with a client-serever archiitucture that are installed on host machine .
 ITS has three component server, API , CLI
 
-
-
-
-
-
-DOCKER IMAGES - 
-An images is read only template for building a docker template that is based on another image that is been 
-modified someway you can either make your images  used these images that are developed by other and made available
+DOCKER IMAGES -
+An images is read only template for building a docker template that is based on another image that is been
+modified someway you can either make your images used these images that are developed by other and made available
 through registry .
+
+TO create a images you can create a docker file for a simple syntax for define the step required .
+a layer of images are created a each instruction of docker file when you change the docker file and rebuilt the image only those layer are changes and rebuilt
+
+when compare to other virtual technology them docker images are lightweight , tiny and fast .
+
+    TYPES OF DOCKER IMAGES -
+
+    Docker images are divided into two categories .
+
+    Parent images -
+    It is specified by the FORM directive in the image's pf dockerfile .
+    It serves as a foundation of all docker command .
+    A dockerfile from scratch directive creates a basic images without using any parent images.
+
+
+      BASE IMAGES -
+
+      It does not have parent images in his docker file .
+      A FROM scratch directive is used in a dockerfile to create it .
+
+
+
+      DOCKER IMAGES COMMAND - >
 
