@@ -128,3 +128,34 @@ construct a new images
 
 DOCKER NETWORKING -
 Networking allow docker container to commnucate with each other .
+
+NETWORK DRIVER -
+the network subsystem in docker is driver based plugable .
+By default docker provide some driver with basic functionality are -
+Bridge
+Host
+overlay
+macklay
+none
+
+    BRIDGE -
+    CONTAINER RUN ON SAME DOCKER DAEMAN SERVER AND CONNECTED BY  BRIDGE .
+    A software bridge is use in a bridge network to allow container connected to same network to commnucate while isolated them to container not connected to the bridge network.
+
+Docker bridge driver implement to rule the host machine to prevent container directly commnucate to host machine .
+
+HOST -
+when you use host network for container ,network stack of that container is not isolated from docker host.
+the container share the host's networkking namespace and container not assigne the ip address .
+
+OVERLAY -
+the overlay driver conncted to many docker daeman host to form a distribuated network when encryption is enable then this network sit top on overlay specific network allow container (including swarm service)connected to it .
+
+MACVLAN ->
+Its a idea for legacy network traffic monitoring app that demand to directly coonected to the physical network .
+in this case macvlan driver assigne mac address to eacj container virtual network interface , making
+appear to physical network interface link directly to physical network.
+
+NONE -
+It is use to completely disable the network stack on the container.
+You can use network none flag when start a container .
