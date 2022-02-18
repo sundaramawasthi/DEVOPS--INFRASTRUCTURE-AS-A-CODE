@@ -125,3 +125,6 @@ Also you can
 attach storage to container
 connected to one or more network
 construct a new images
+
+DOCKER NETWORKING -
+Networking allow docker container to commnucate with each other .
