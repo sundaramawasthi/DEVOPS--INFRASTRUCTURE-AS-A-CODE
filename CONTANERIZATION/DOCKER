@@ -100,3 +100,14 @@ when compare to other virtual technology them docker images are lightweight , ti
 
       DOCKER IMAGES COMMAND - >
 
+      docker image build -> create an image
+      docker image history -> display an image history
+      docker image inspect -> display expensive info abot one or more images
+      docker image ls -> list the images
+      docker iamge prune -> delete unused images
+      docker image pull -> pull images from registey
+      docker images push -> push image to repositiry
+      docker image rm -> delete one or more image
+      docker image save -> save one or more image
+
+DOCKER CONYAINER ->
