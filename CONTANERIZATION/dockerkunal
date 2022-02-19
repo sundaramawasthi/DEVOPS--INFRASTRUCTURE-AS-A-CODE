@@ -1,0 +1,14 @@
+Introduction
+
+For a beginner appliation are running on a server .So idea is that application is running on server .
+Inial application are running on application only one application on one server
+one server for one application , suppoese 200 people use the application but when people incese load also
+incese , so they dont the way to run multiple application on server.
+so for new application buy a new server .
+
+Every time when need to new app we have to buy new server.
+
+VMVARE -
+VM ware solve this problem by virtual machine .
+VM machine solve one application on one server problem , you xan run multiple application on same server . but vm required their own OS.
+ITs far better than one application on one server but not so good.
