@@ -12,3 +12,7 @@ VMVARE -
 VM ware solve this problem by virtual machine .
 VM machine solve one application on one server problem , you xan run multiple application on same server . but vm required their own OS.
 ITs far better than one application on one server but not so good.
+
+PROBLEM IN VM WARE -
+build an application and give website to friend but when your frieds run it not run on their machine.
+its saying module, machine , are machine .
