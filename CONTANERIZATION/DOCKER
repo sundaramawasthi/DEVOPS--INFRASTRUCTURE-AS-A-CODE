@@ -1,11 +1,11 @@
      What is a docker ?
 
-Docker is popular Contanerization tools
+Docker is popular Contanerization tool.
 Docker is Contanerization platform from packageing your application along with all
 of this dependencies .
 
 The whole idea of docker is to easily developed the application ship container that can be deploy evrywhere.
-It is free and open platform creating , delivery and operating application
+It is free and open platform creating , delivery and operating application.
 
 DOCKER PLATFORM -
 
@@ -14,7 +14,7 @@ Docker Provide the ability to package and run an applicaion loosly isolated envi
 container .
 TO manage the lifeCycle of container its provide Docker platform .
 
-USE OF DOCKER PLATFORM -
+    USE OF DOCKER PLATFORM -
 
 Deplepment, deployment , Testing
 
@@ -47,7 +47,8 @@ DOCKER CLIENT AND DOEMAN USE A REST API ,UNIX SOCKET OR NETWORK INTERFACE TO COM
 
 KEY COMPONENT OF DOCKER ARCHITECTURE -
 
-FIRST DOCKER COMPONENT IS -> DOCKER HOST{IT OFFER Complete enviroment of execuete and running application that include docker deoman that is also a core component }
+FIRST DOCKER COMPONENT IS -> DOCKER HOST
+{IT OFFER Complete enviroment of execuete and running application that include docker deoman that is also a core component }
 docker daemon handle docker object such as images, volume , container , network by listeing docker
 API request .
 TO manage request docker daeman commnucate with other daeman
@@ -110,7 +111,7 @@ when compare to other virtual technology them docker images are lightweight , ti
       docker image rm -> delete one or more image
       docker image save -> save one or more image
 
-DOCKER CONYAINER ->
+DOCKER CONTAINER ->
 
 A container are runnable instance of images
 a container are isolated from other container and its host machine .
