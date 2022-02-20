@@ -53,3 +53,8 @@ restAPI
 
 Server
 daeman
+
+IMAGE - Image is just a file that contain the instruction .
+Container -Its a running instance of the image.
+
+Docker file -> image-> container
