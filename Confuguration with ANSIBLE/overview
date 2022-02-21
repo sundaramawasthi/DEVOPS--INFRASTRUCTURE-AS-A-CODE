@@ -1,2 +1,19 @@
 
-Ansible is a simple open source IT engine 
+WHAT IS ANSIBLE ? 
+
+Ansible is a simple open source IT engine  
+which automate application deployment , intra sevice orchestration , 
+cloud provisiong and many other It tools .NOT ONLY THIS BUT ANSIBLE IS VERY EASY TO DEPLY.
+Ansible use play book to deplay job and play book use very easy langauge callled YAML .
+
+Ansible is tools of configuration management - 
+
+Configuration management in term of ansible mean is that it maintain configuration of product performance 
+by keeping records and updateing the detail  information which describe interprise hardware and software so 
+such information typically include excatly that version and update that are apply to install software package
+and location and also the network address of the hardware devices . 
+
+
+How does ansible work - 
+
+Ansible are work by connecting node 
