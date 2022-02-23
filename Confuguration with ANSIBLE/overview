@@ -13,4 +13,8 @@ by keeping records and updateing the detail  information which describe interpri
 such information typically include excatly that version and update that are apply to install software package
 and location and also the network address of the hardware devices . 
 
+ANSIBLE INVENTTRY - 
+
+Ansible  can work on one or  more than one  system server on same time . In Order to  the work on system on server ansible required 
+establishment of connection , that ansible work on ssh for linux and powershell for window .
 
