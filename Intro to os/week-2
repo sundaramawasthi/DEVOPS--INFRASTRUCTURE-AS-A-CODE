@@ -22,3 +22,18 @@ LINUX ADD AND REMOVE USER {
 sudo useradd username {add user}
 sudo userdel username { del user}
 }
+
+FILE PERMISSION - { powershell
+
+    icacls
+    icacls /?
+    ACL{access control list}
+
+}
+
+LINUX { FILE PERMISSION }
+{
+READ
+WRITE
+EXECUATE
+}
