@@ -8,6 +8,7 @@ mkdir
 
 in bash 
 my \cool\folder 
+
 or 
 
 
@@ -17,3 +18,9 @@ cp for copy anything
 
 cat - cancatinate
 more - view content 1 page at a time 
+
+
+
+
+
+

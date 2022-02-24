@@ -1,4 +1,19 @@
 View user and group information -
-USING CLI - 
+USING CLI -
 Get-localuser
 Get-localgroup
+cat /etc/passwd { for password}
+
+LINUX password { for change - > passwd username }
+
+Force standard user to change thier password - { sudo passwd -e username }
+{
+ADDING AND REMOVING USER - powershell
+
+net user username \* /add { for powershell}
+for show the password in ppowershell { net user username / logonpasswordchg:yes}
+
+for delete the usr { net user username /del}
+for removelocal user { Remove-localUser username}
+
+}
