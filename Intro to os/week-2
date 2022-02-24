@@ -1,0 +1,4 @@
+View user and group information -
+USING CLI - 
+Get-localuser
+Get-localgroup
