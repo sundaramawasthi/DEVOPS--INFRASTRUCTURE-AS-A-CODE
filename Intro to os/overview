@@ -22,5 +22,10 @@ more - view content 1 page at a time
 
 
 
+LINUX - 
+The first user that are created by linux are root user. 
+
+cat /etc/passwd { for password}
+
 
 

@@ -17,3 +17,8 @@ for delete the usr { net user username /del}
 for removelocal user { Remove-localUser username}
 
 }
+
+LINUX ADD AND REMOVE USER {
+sudo useradd username {add user}
+sudo userdel username { del user}
+}
