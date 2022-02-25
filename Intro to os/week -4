@@ -1,0 +1,22 @@
+REMOTE ACCESS - 
+
+
+sudo service ssh status
+sudo service ssh start
+ssh hostname ipaddress
+
+
+setup ssh localhost
+
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo service ssh start
+Then take the following steps to enable sshing to localhost:
+
+cd ~/.ssh
+ssh-keygen to generate a public/private rsa key pair; use the default options
+cat id_rsa.pub >> authorized_keys to append the key to the authorized_keys file
+chmod 640 authorized_keys to set restricted permissions
+sudo service ssh restart to pickup recent changes
+ssh localhost

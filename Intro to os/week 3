@@ -3,5 +3,14 @@ grep { seach the pkg}
 
 dpkg -l | pkg name{ search the pkg}
 
+WINDOW ARCHIVE -
 
+Compress-Archive -path C:/user ..... ~desktop\coolArchive.zip
+
+
+LINUX ARCHIVE - 
+
+Extract the tar file in linux 
+
+7z e my_archive.tar[ file name ]
 
