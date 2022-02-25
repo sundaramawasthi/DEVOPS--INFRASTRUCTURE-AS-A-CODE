@@ -1,0 +1,7 @@
+WINDOW SOFTWARE PACKAGE  - 
+grep { seach the pkg}
+
+dpkg -l | pkg name{ search the pkg}
+
+
+
