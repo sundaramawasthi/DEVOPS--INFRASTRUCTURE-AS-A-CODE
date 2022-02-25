@@ -33,7 +33,56 @@ FILE PERMISSION - { powershell
 
 LINUX { FILE PERMISSION }
 {
-READ
-WRITE
-EXECUATE
+READ   r 
+WRITE   w
+EXECUATE  x
+
+
+- { mean file is lokking at is just a ragular file}
+d { d stand for directory}
+
+- rwxrw-r--
+
+first three are owner of the file { rwx}
+secound three are difine the group this file belong to {rw-}
+thired three are belong to permission of all other user {r-- }
+}
+
+MODIFIY the pesrission {
+
+     icacls 'C:\ Vacation Pictures' /grant Everyone:(OI)(CI)(R)
+      icacls 'C:\Vacation Pictures' /grant' Authenticated Users:(OI)(CI)(R)
+      icacls 'C:\Vaction Pictures' /remove Everyone
+}
+
+MODIFICATION IN LINUX {
+
+    the owner denoted by u 
+    the group file belong to denoted by g 
+    other user denoted by o 
+
+    chmod u+x file name for add permission
+    chmod u-x file name for remove permission
+
+    CHANGE PERMISSION USING NUMBER
+
+4 for read or r
+2 for write or w
+1 for execuate or x
+
+chmod 752 file name
+
+for change owner write 
+
+sudo chown  ownername file name
+
+}
+
+LINUX SETUID , SETGID , STICKY Bit . 
+
+{
+    special permission bit to allow file to run as a owner of the file is s 
+    SetUID
+    SETGID
+    
 }
