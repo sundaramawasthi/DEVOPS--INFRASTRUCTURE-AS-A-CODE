@@ -20,3 +20,5 @@ cat id_rsa.pub >> authorized_keys to append the key to the authorized_keys file
 chmod 640 authorized_keys to set restricted permissions
 sudo service ssh restart to pickup recent changes
 ssh localhost
+{for start ssh locally}
+
