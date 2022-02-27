@@ -1,0 +1,41 @@
+
+
+RUNNING NGNIX  WEB SERVER AS A APPLICATION 
+{
+docker pull ngnix:latest 
+
+then run docker images to show the images 
+
+Now run images as a container - 
+
+docker container run -itd  --name web-server-nginx -p 8080:80  nginx:latest
+then its show container id 
+
+now for see that nginx container are running as a container - 
+
+docker ps -a 
+
+then open your local host port 8080 
+}
+
+
+STAGE OF CONTAINERIZATION  - 
+{
+docker file (built)
+docker images(shift)
+docker container (run )
+}
+
+STRUCTURE OF DOCKER FILE 
+
+name the file with docker file where D is capital 
+
+In a docker file we have a intruction that are generally divided into two few part - 
+
+1. FUNDAMENTAL INSTRUCTION -
+2. CONFIGUARATION INSTRUCTION 
+3. EXECUATIVE INSTRUCTION 
+
+{
+    1 . FUNDAMENTAL INSTRUCTION 
+}
