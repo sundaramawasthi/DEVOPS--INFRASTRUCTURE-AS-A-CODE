@@ -38,4 +38,16 @@ In a docker file we have a intruction that are generally divided into two few pa
 
 {
     1 . FUNDAMENTAL INSTRUCTION 
+
+    Create a docker file with touch command 
+
+    touch dockerfile
+    use nano testeditor to open dockerfile 
 }
+
+First intruction we provide is ARG {arg is used by define use by form intruction}
+
+
+
+
+to add little more substance of image where also includeing set of Run and CMD instruction 
