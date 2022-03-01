@@ -65,3 +65,68 @@ Dockerfile{
 
     
 }
+
+TIME TO BUILT A dockerfile and turun into a images
+
+docker build -t img_from .
+{
+    process that heppen while buis the images 
+
+IMAG WILL BUILD 
+
+STORING ARGUMENT 
+
+SETTING IP BASE IMAGE 
+
+UPDATE THE OS 
+
+IMAGE IS BUILD 
+
+
+we can verify by type docker images 
+}
+
+
+
+DOCKERFILE CONFIGUARATION INSTARUCTION 
+
+{
+    docker build -t img_from-nav .
+
+    after build the images run the images as a container by typeing 
+ {intractive teritile enable detach}
+
+    docker run -itd --name cont_img-env  img_run-env }
+    container id recievd
+
+    for saw the container types docker ps  -a 
+
+    let execuate our container  - 
+
+    by type 
+    docker exec -it cont_run-env bash 
+    now we have a root directory 
+
+    now list the directory by type  ls 
+
+    and lets check the envirement variable 
+
+    echo $USER Command 
+
+    now exit by simple exit cmd
+    }
+
+    Expose instruction 
+
+    [ nano Dockerfile
+    docker build -t img_expose .
+     docker images
+     docker run -itd --rm  --name  cont_expose -p 8080:80 img_expose
+     docker container stop cont_expose{for stop port 8080}
+
+    ]
+
+CONTAINERIZING APPLICATION WITH DOCKER FILE - 
+{
+
+}
