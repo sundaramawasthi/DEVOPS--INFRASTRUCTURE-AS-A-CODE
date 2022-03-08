@@ -1,0 +1,56 @@
+Docker Storage - 
+
+Create a volume on docker command - 
+
+docker volume create  vol-buxybox 
+
+let  create it on another way - 
+
+docker run -d  --volume  vol-ubuntu:/tmp ubuntu
+
+docker volume inspect vol-ubuntu
+
+docker volume rm vol-ubuntu
+
+
+MOUNT THE CONTAINER - 
+
+docker run -itd  --name cont-ubuntu  --volume vol-ubuntu:var/log ubuntu:latest
+
+
+
+
+
+
+DOCKER COMPOSED -
+composed is tools which define and run complex application with docker ,you can integrate frontend , backend , docker volume and file . docker composed is translate to docker engine for  you.
+
+
+DEMO - 
+installation 
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version 
+
+
+WORKING WITH DOCKER COMPOSED 
+
+oopen yaml files 
+
+String and number 
+Array and list 
+Hash and Dictionary 
+
+
+
+
+
+docker composed up -d { run composed }
+
+
+
+docker Swam - 
+deb http://security.ubuntu.com/ubuntu/ focal-security multiverse
