@@ -1,0 +1,6 @@
+Ansible can work one or more system at same time 
+Work as agent list 
+
+Create inventry file 
+
+vim inventry.txt 
